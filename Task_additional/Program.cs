@@ -1,6 +1,7 @@
 ﻿Console.Clear();
 Console.WriteLine("Программа выдаёт самую длинную последовательность, " +
                   "состоящую из одинаковых элементов.");
+Console.Write("Введите числа через пробел: ");
 string input = Console.ReadLine()!;
 int[] array = ParseToArray(input);
 int[] results = FindMaxSequence(array);
